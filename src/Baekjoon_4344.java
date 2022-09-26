@@ -13,19 +13,19 @@ public class Baekjoon_4344 {
 
         for (int i = 0; i < C; i++){
             st = new StringTokenizer(br.readLine());
-            int a = Integer.parseInt(st.nextToken());
-            int[] arr = new int[a];
-            for (int j = 0; j < a; j++){
+            int N = Integer.parseInt(st.nextToken());
+            int[] arr = new int[N];
+            for (int j = 0; j < N; j++){
                 arr[j] = Integer.parseInt(st.nextToken());
                 sum += arr[j];
             }
-            double avg = (double) sum / a;
-            for (int k = 0; k < a; k++){
+            double avg = (double) sum / N;
+            for (int k = 0; k < N; k++){
                 if(arr[k] > avg){
                     over++;
                 }
             }
-            String ratio = String.format("%.3f", (double) over / a * 100);
+            String ratio = String.format("%.3f", (double) over / N * 100);
             System.out.println(ratio + "%");
 
             sum = 0;
