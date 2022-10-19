@@ -22,6 +22,7 @@ public class Baekjoon_1157 {
                 result = '?'; // 가장 많이 사용된 알파벳이 여러 개 존재하는 경우에는 ?를 출력
             }
         }
+        br.close();
         System.out.print(result);
     }
 }
