@@ -7,7 +7,6 @@ public class Baekjoon_5622 {
 /*
         if문을 이용한 풀이
 */
-        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         int dial = 0;
