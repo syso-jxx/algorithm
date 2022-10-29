@@ -39,9 +39,7 @@ public class Baekjoon_2941 {
         String [] arr = {"c=", "c-", "dz=", "z=", "d-", "lj", "nj", "s="};
 
         for (String s : arr){
-            if (str.contains(s)){
-                str = str.replace(s, ",");
-            }
+            str = str.replace(s, ",");
         }
 
         System.out.println(str.length());
