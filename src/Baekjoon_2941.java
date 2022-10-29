@@ -8,7 +8,6 @@ public class Baekjoon_2941 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
-        String [] arr = {"c=", "c-", "dz=", "z=", "d-", "lj", "nj", "s="};
 
 /*
         if (str.contains("c=")){
@@ -36,6 +35,8 @@ public class Baekjoon_2941 {
             str = str.replace("s=", ",");
         }
 */
+
+        String [] arr = {"c=", "c-", "dz=", "z=", "d-", "lj", "nj", "s="};
 
         for (String s : arr){
             if (str.contains(s)){
