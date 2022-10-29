@@ -41,7 +41,7 @@ public class Baekjoon_2941 {
         for (String s : arr){
             str = str.replace(s, ",");
         }
-
         System.out.println(str.length());
+        br.close();
     }
 }
