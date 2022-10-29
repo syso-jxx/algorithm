@@ -26,13 +26,13 @@ public class Baekjoon_2908 {
 
         Scanner sc = new Scanner(System.in);
 
-		String a = sc.next();
-		int aa = Integer.parseInt(new StringBuilder(a).reverse().toString());
+		String A = sc.next();
+		int intRevA = Integer.parseInt(new StringBuilder(A).reverse().toString());
 
-		String b = sc.next();
-		int bb = Integer.parseInt(new StringBuilder(b).reverse().toString());
+		String B = sc.next();
+		int intRevB = Integer.parseInt(new StringBuilder(B).reverse().toString());
 
-		System.out.println(Math.max(aa, bb));
+		System.out.println(Math.max(intRevA, intRevB));
 
     }
 }
